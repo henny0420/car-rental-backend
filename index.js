@@ -23,7 +23,7 @@ ConnectDB()
 app.use(express.json())
 app.use(cors())
 
-app.use('/user',ROUTES.USER)
+app.use('/',ROUTES.USER)
 
 app.use('/role',ROUTES.ROLE)
 
@@ -31,4 +31,7 @@ app.use('/brand',ROUTES.BRAND)
 
 app.use('/car',ROUTES.CAR)
 
+app.use('/coupan',ROUTES.COUPAN)
+
+app.use('/',ROUTES.BOOKING)
 

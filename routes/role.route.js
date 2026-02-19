@@ -1,8 +1,8 @@
 const express=require('express')
 const router = express.Router()
-const auth = require('../middleware/authenticate')
 const   controllers = require('./../controllers')
-
-router.put('/update/:id',auth(true,['admin']),controllers.ROLE.updateRoleController)
+const { routeAccess } = require('../middleware/routeAccess')
+    
+router.put('/update/:id', routeAccess(true,['admin']),controllers.ROLE.updateRoleController)
 
 module.exports = router

@@ -16,6 +16,10 @@ const AddCarController = async (req, res) => {
       pricePerHour,
       registrationNumber,
       location,
+      documents,
+      rating,
+      status,
+      createdBy
     } = req.body
 
     // for single file upload
@@ -37,9 +41,12 @@ const AddCarController = async (req, res) => {
 
     // ----- for cover images and gallery images -------------
     
-    const cover_image = req.files.coverImage
-    const gallery_images = req.files.galleryImages
+    const cover_image = req.files?.coverImage || []
+    const gallery_images = req.files?.galleryImages || []
 
+    if (cover_image.length === 0) {
+      return res.status(400).json({ message: "Cover image is required" })
+    }
 
     const cover_result = await Promise.all(cover_image.map((val) => uploadOnCloudinary(val.path)))
 
@@ -88,8 +95,10 @@ console.log("Gallery data:", gallery_images_data);
       // --------for cover image and gallery images ---------
       coverImage: cover_image_data,
       galleryImages: gallery_images_data,
-
-      createdBy: req.user?._id   
+      documents,
+      rating,
+      status,
+      createdBy: req.user?._id || req.body.createdBy
     })
 
     return res.status(201).json({
@@ -159,18 +168,9 @@ const DeleteCarContoller = async function(req,res){
         message: "Car not found"
       });
     }
-     if (car.coverImage?.public_id) {
-      await cloudinary.uploader.destroy(car.coverImage.public_id);
-    }
 
-    if (car.galleryImages?.length > 0) {
-      for (const img of car.galleryImages) {
-        if (img.public_id) {
-          await cloudinary.uploader.destroy(img.public_id);
-        }
-      }
-    }
-    const deletedCar = await DB.CAR.findByIdAndDelete(
+    // Soft delete: Update status to inactive, keep images in Cloudinary so it can be restored
+    const deletedCar = await DB.CAR.findByIdAndUpdate(
       id,
       { isActive: false },
       { new: true }
@@ -216,7 +216,8 @@ const UpdateCarController = async function(req,res){
         location,
         isActive,
         rating,
-        status
+        status,
+        createdBy
         } = req.body
 
 
@@ -231,7 +232,8 @@ const UpdateCarController = async function(req,res){
                                     location,
                                     isActive,
                                     rating,
-                                    status
+                                    status, 
+                                    createdBy : req.user?._id
                                     },{new : true})
                                     .populate('brand','name')
         

@@ -11,32 +11,32 @@ const CarSchema = new Schema({
     brand:{
         type:objId,
         ref :'brands',
-        // required:true,
+        required:true,
     },
     model : {
         type : String,
-        // required:true
+        required:true
     },
     carType : {
         type :String,
         enum :['sedan','suv','sports car','jeep','van','convertible','hatchback'],
-        // required :true
+        required :true
     },
     features: {
         color: String,
         transmission: {
             type: String,
             enum: ['Manual', 'Automatic'],
-            // required: true
+            required: true
         },
         fuelType: {
             type: String,
-            // required: true,
+            required: true,
             enum: ['petrol', 'diesel', 'hybrid', 'ev', 'cng'],
         },
         seatingCapacity:{
             type : Number,
-            // required :true
+            required :true
         },
         hasAC: Boolean,
         hasGPS: Boolean,
@@ -45,7 +45,7 @@ const CarSchema = new Schema({
     pricePerHour :{
         type :Number,
         min: 0,
-        // required :true
+        required :true
     },
     status: {
         type: String,
@@ -54,7 +54,7 @@ const CarSchema = new Schema({
     },
     registrationNumber: {
         type: String,
-        // required: true,
+        required: true,
         unique: true
     },
     documents: {
@@ -102,17 +102,17 @@ const CarSchema = new Schema({
     location: {
         city: {
             type: String,
-            // required: true
+            required: true
         } 
     },
     isActive : {
         type : Boolean,
         default : true,
-        // required : true
+        required : true
     },
     createdBy: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'Users'
     }
 },{timestamps : true})
 
