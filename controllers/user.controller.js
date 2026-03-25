@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 var jwt = require('jsonwebtoken');
 const secret = process.env.SECRET_KEY
-const { uploadOnCloudinary } = require('../config/cloudinary.JS');
+const { uploadOnCloudinary } = require('../config/cloudinary.js');
 
 const SignupController = async function (req, res) {
     try {

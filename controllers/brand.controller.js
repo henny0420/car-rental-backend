@@ -1,4 +1,4 @@
-const { uploadOnCloudinary } = require('../config/cloudinary.JS')
+const { uploadOnCloudinary } = require('../config/cloudinary.js')
 const DB = require('./../models')
 
 
