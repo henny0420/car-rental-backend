@@ -1,0 +1,495 @@
+[
+  {
+    "_id": "69c3fed50123d079f7f72d94",
+    "name": "BMW 3 Series",
+    "brand": "69846ee1fb9b20720a12d1b8",
+    "model": "2023",
+    "carType": "sedan",
+    "features": {
+      "color": "gray",
+      "transmission": "Manual",
+      "fuelType": "diesel",
+      "seatingCapacity": 5,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerDay": 7998,
+    "status": "available",
+    "approvalStatus": "approved",
+    "registrationNumber": "MH02CD5670",
+    "documents": {
+      "insuranceValidTill": "2026-03-14T00:00:00.000Z",
+      "pollutionValidTill": "2026-03-13T00:00:00.000Z"
+    },
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774452441/jgeczrlsmmak3wgetlcj.png",
+      "public_id": "jgeczrlsmmak3wgetlcj"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774452442/kuk9ggpwxi0k9gpaoplq.png",
+        "public_id": "kuk9ggpwxi0k9gpaoplq",
+        "_id": "69c3fed50123d079f7f72d95"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774452442/kikgx2wmmv0fzlbzimor.jpg",
+        "public_id": "kikgx2wmmv0fzlbzimor",
+        "_id": "69c3fed50123d079f7f72d96"
+      }
+    ],
+    "location": {
+      "city": "Mumbai"
+    },
+    "isActive": true,
+    "createdBy": "69c150b45d5fba549d90491f",
+    "carCategory": "normal",
+    "createdAt": "2026-03-25T15:27:17.050Z",
+    "updatedAt": "2026-03-25T15:28:50.843Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3faafc255859e66c1b76d",
+    "name": "BMW 3 Series",
+    "brand": "69846ee1fb9b20720a12d1b8",
+    "model": "2023",
+    "carType": "sedan",
+    "features": {
+      "color": "gray",
+      "transmission": "Manual",
+      "fuelType": "diesel",
+      "seatingCapacity": 5,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerDay": 8000,
+    "status": "available",
+    "approvalStatus": "pending",
+    "registrationNumber": "MH02CD5678",
+    "documents": {
+      "insuranceValidTill": "2026-03-21T00:00:00.000Z",
+      "pollutionValidTill": "2026-03-18T00:00:00.000Z"
+    },
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774451379/zupjnsuyocgsvvwpuoj6.png",
+      "public_id": "zupjnsuyocgsvvwpuoj6"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774451381/glv72ifdytcwpprunlbe.png",
+        "public_id": "glv72ifdytcwpprunlbe",
+        "_id": "69c3faafc255859e66c1b76e"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774451381/q5zppguh5tts4qosii8i.jpg",
+        "public_id": "q5zppguh5tts4qosii8i",
+        "_id": "69c3faafc255859e66c1b76f"
+      }
+    ],
+    "location": {
+      "city": "Mumbai"
+    },
+    "isActive": true,
+    "createdBy": "69c150b45d5fba549d90491f",
+    "carCategory": "normal",
+    "createdAt": "2026-03-25T15:09:35.593Z",
+    "updatedAt": "2026-03-25T15:09:35.593Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3f50f2c09a9db47172c51",
+    "name": "BMW 3 Series",
+    "brand": "69846ee1fb9b20720a12d1b8",
+    "model": "2023",
+    "carType": "sedan",
+    "features": {
+      "transmission": "Automatic",
+      "fuelType": "petrol",
+      "seatingCapacity": 4,
+      "hasAC": false,
+      "hasGPS": false,
+      "bluetooth": false
+    },
+    "pricePerDay": 8000,
+    "status": "available",
+    "approvalStatus": "pending",
+    "registrationNumber": "MH05BM3333",
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774449937/z93gckyyurocnyipnct0.png",
+      "public_id": "z93gckyyurocnyipnct0"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774449939/get8n7ywfyv7htpsagok.png",
+        "public_id": "get8n7ywfyv7htpsagok",
+        "_id": "69c3f50f2c09a9db47172c52"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774449941/iqxsrpdocyuszwvks3ei.png",
+        "public_id": "iqxsrpdocyuszwvks3ei",
+        "_id": "69c3f50f2c09a9db47172c53"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1774449940/ffze9hbp5wwbahwx0jbi.jpg",
+        "public_id": "ffze9hbp5wwbahwx0jbi",
+        "_id": "69c3f50f2c09a9db47172c54"
+      }
+    ],
+    "location": {
+      "city": "mumbai"
+    },
+    "isActive": true,
+    "createdBy": "69c150b45d5fba549d90491f",
+    "carCategory": "normal",
+    "createdAt": "2026-03-25T14:45:35.820Z",
+    "updatedAt": "2026-03-25T14:45:35.820Z",
+    "__v": 0
+  },
+  {
+    "_id": "698588b76ee6fc3395aae246",
+    "name": "Maruti Swift",
+    "brand": "698472cafb9b20720a12d1df",
+    "model": "2024 ",
+    "carType": "hatchback",
+    "features": {
+      "color": "Blue",
+      "transmission": "Manual",
+      "fuelType": "petrol",
+      "seatingCapacity": 5,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerHour": 200,
+    "status": "available",
+    "registrationNumber": "GJ05SW9988",
+    "documents": {
+      "insuranceValidTill": "2027-05-30T00:00:00.000Z",
+      "pollutionValidTill": "2026-11-30T00:00:00.000Z"
+    },
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770358964/i6fwcxmeqbdebmzcjlr2.png",
+      "public_id": "i6fwcxmeqbdebmzcjlr2"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770358965/fsgfqngdqceojgzlr3oh.avif",
+        "public_id": "fsgfqngdqceojgzlr3oh",
+        "_id": "698588b76ee6fc3395aae247"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770358966/pqfko3sze59nkqcw4lqg.avif",
+        "public_id": "pqfko3sze59nkqcw4lqg",
+        "_id": "698588b76ee6fc3395aae248"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770358966/khmqnc6wuiuqo0mktcrt.jpg",
+        "public_id": "khmqnc6wuiuqo0mktcrt",
+        "_id": "698588b76ee6fc3395aae249"
+      }
+    ],
+    "location": {
+      "city": "Surat"
+    },
+    "isActive": true,
+    "createdBy": "698581c76ee6fc3395aae241",
+    "createdAt": "2026-02-06T06:22:47.364Z",
+    "updatedAt": "2026-03-25T14:29:33.764Z",
+    "__v": 0,
+    "approvalStatus": "approved"
+  },
+  {
+    "_id": "69857e2312d0658e2e8a56d6",
+    "name": "Mahindra Scorpio-N",
+    "brand": "698471d4fb9b20720a12d1d3",
+    "model": "2024 ",
+    "carType": "suv",
+    "features": {
+      "color": "Deep Forest",
+      "transmission": "Automatic",
+      "fuelType": "petrol",
+      "seatingCapacity": 7,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerHour": 550,
+    "status": "available",
+    "registrationNumber": "GJ05SN8800",
+    "documents": {
+      "insuranceValidTill": "2027-01-10T00:00:00.000Z",
+      "pollutionValidTill": "2027-01-15T00:00:00.000Z"
+    },
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356255/xwr6lwuq1gvcecifz3xl.png",
+      "public_id": "xwr6lwuq1gvcecifz3xl"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356257/pcudcat3cw3yqpvhskcz.png",
+        "public_id": "pcudcat3cw3yqpvhskcz",
+        "_id": "69857e2312d0658e2e8a56d7"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356257/mkwqybprqelrmhczirzj.jpg",
+        "public_id": "mkwqybprqelrmhczirzj",
+        "_id": "69857e2312d0658e2e8a56d8"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356258/rrpr1bufvmwofwlluine.avif",
+        "public_id": "rrpr1bufvmwofwlluine",
+        "_id": "69857e2312d0658e2e8a56d9"
+      }
+    ],
+    "location": {
+      "city": "Surat"
+    },
+    "isActive": true,
+    "createdBy": "6954c2e10c7fc6d3b032e4ed",
+    "createdAt": "2026-02-06T05:37:39.230Z",
+    "updatedAt": "2026-03-25T14:29:33.764Z",
+    "__v": 0,
+    "approvalStatus": "approved"
+  },
+  {
+    "_id": "69857d7212d0658e2e8a56d1",
+    "name": "Mahindra Thar",
+    "brand": "6964d97542164bc0098dfc4f",
+    "model": "2024 ",
+    "carType": "suv",
+    "features": {
+      "color": "White",
+      "transmission": "Automatic",
+      "fuelType": "ev",
+      "seatingCapacity": 5,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerHour": 450,
+    "status": "available",
+    "registrationNumber": "GJ05EV1125",
+    "documents": {
+      "insuranceValidTill": "2027-01-10T00:00:00.000Z",
+      "pollutionValidTill": "2027-01-15T00:00:00.000Z"
+    },
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356080/j7owsfpusx4ncvkhk9bu.png",
+      "public_id": "j7owsfpusx4ncvkhk9bu"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356081/g4cnlumrz8otqe9jfaxc.jpg",
+        "public_id": "g4cnlumrz8otqe9jfaxc",
+        "_id": "69857d7212d0658e2e8a56d2"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770356081/y0ksdfbq3itwo2dhqsw7.jpg",
+        "public_id": "y0ksdfbq3itwo2dhqsw7",
+        "_id": "69857d7212d0658e2e8a56d3"
+      }
+    ],
+    "location": {
+      "city": "Surat"
+    },
+    "isActive": true,
+    "createdBy": "6954c2e10c7fc6d3b032e4ed",
+    "createdAt": "2026-02-06T05:34:42.379Z",
+    "updatedAt": "2026-03-25T14:29:33.764Z",
+    "__v": 0,
+    "approvalStatus": "approved"
+  },
+  {
+    "_id": "69857c0d12d0658e2e8a56cb",
+    "name": "Tata Nexon",
+    "brand": "69847156fb9b20720a12d1ca",
+    "model": "2024 ",
+    "carType": "suv",
+    "features": {
+      "color": "Black",
+      "transmission": "Automatic",
+      "fuelType": "ev",
+      "seatingCapacity": 5,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerHour": 450,
+    "status": "available",
+    "registrationNumber": "GJ05EV1122",
+    "documents": {
+      "insuranceValidTill": "2027-01-10T00:00:00.000Z",
+      "pollutionValidTill": "2027-01-15T00:00:00.000Z"
+    },
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770355720/aiix1s7ttarvbpycq3fo.png",
+      "public_id": "aiix1s7ttarvbpycq3fo"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770355723/gg6fey5rfzuspd3sqcd3.jpg",
+        "public_id": "gg6fey5rfzuspd3sqcd3",
+        "_id": "69857c0d12d0658e2e8a56cc"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770355723/etuw9cfvtuznd9qdh85s.avif",
+        "public_id": "etuw9cfvtuznd9qdh85s",
+        "_id": "69857c0d12d0658e2e8a56cd"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770355723/ngr3g80grlzxrhuaciyq.jpg",
+        "public_id": "ngr3g80grlzxrhuaciyq",
+        "_id": "69857c0d12d0658e2e8a56ce"
+      }
+    ],
+    "location": {
+      "city": "Surat"
+    },
+    "isActive": true,
+    "createdBy": "6954c2e10c7fc6d3b032e4ed",
+    "createdAt": "2026-02-06T05:28:45.277Z",
+    "updatedAt": "2026-03-25T14:29:33.764Z",
+    "__v": 0,
+    "approvalStatus": "approved"
+  },
+  {
+    "_id": "698578ca3a69a4e6a61af2fe",
+    "name": "Tata safari",
+    "brand": "69847156fb9b20720a12d1ca",
+    "model": "2024 ",
+    "carType": "suv",
+    "features": {
+      "color": "Black",
+      "transmission": "Automatic",
+      "fuelType": "diesel",
+      "seatingCapacity": 7,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerHour": 400,
+    "status": "available",
+    "registrationNumber": "GJ05SF0001",
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354886/u9h7thsqffy9eyxowfa5.png",
+      "public_id": "u9h7thsqffy9eyxowfa5"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354887/lhk4jodcg2mouluzdjtw.png",
+        "public_id": "lhk4jodcg2mouluzdjtw",
+        "_id": "698578ca3a69a4e6a61af2ff"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354888/rdzclra6xjbklwop3cqj.png",
+        "public_id": "rdzclra6xjbklwop3cqj",
+        "_id": "698578ca3a69a4e6a61af300"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354888/jpyb5xazywkzrlyckpoi.png",
+        "public_id": "jpyb5xazywkzrlyckpoi",
+        "_id": "698578ca3a69a4e6a61af301"
+      }
+    ],
+    "location": {
+      "city": "Surat"
+    },
+    "isActive": true,
+    "createdBy": "6954c2e10c7fc6d3b032e4ed",
+    "createdAt": "2026-02-06T05:14:50.039Z",
+    "updatedAt": "2026-03-25T14:29:33.764Z",
+    "__v": 0,
+    "approvalStatus": "approved"
+  },
+  {
+    "_id": "698577263a69a4e6a61af2f1",
+    "name": "Hyundai Creta",
+    "brand": "6984721bfb9b20720a12d1d9",
+    "model": "2024 ",
+    "carType": "suv",
+    "features": {
+      "color": "Black",
+      "transmission": "Automatic",
+      "fuelType": "petrol",
+      "seatingCapacity": 5,
+      "hasAC": true,
+      "hasGPS": true,
+      "bluetooth": true
+    },
+    "pricePerHour": 400,
+    "status": "available",
+    "registrationNumber": "GJ05SN8722",
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "coverImage": {
+      "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354468/pdbrlddrki7rraci9ez5.png",
+      "public_id": "pdbrlddrki7rraci9ez5"
+    },
+    "galleryImages": [
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354469/evydazcyxsd7x71mpo8z.jpg",
+        "public_id": "evydazcyxsd7x71mpo8z",
+        "_id": "698577273a69a4e6a61af2f2"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354469/zhv10bp3otkfepxreonv.avif",
+        "public_id": "zhv10bp3otkfepxreonv",
+        "_id": "698577273a69a4e6a61af2f3"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354470/wp2adgbifihymb4trnh6.jpg",
+        "public_id": "wp2adgbifihymb4trnh6",
+        "_id": "698577273a69a4e6a61af2f4"
+      },
+      {
+        "url": "https://res.cloudinary.com/dpqnyjcgw/image/upload/v1770354469/ycbsrbb4lxtwsy7iwoyv.png",
+        "public_id": "ycbsrbb4lxtwsy7iwoyv",
+        "_id": "698577273a69a4e6a61af2f5"
+      }
+    ],
+    "location": {
+      "city": "Surat"
+    },
+    "isActive": true,
+    "createdBy": "6954c2e10c7fc6d3b032e4ed",
+    "createdAt": "2026-02-06T05:07:51.046Z",
+    "updatedAt": "2026-03-25T14:29:33.764Z",
+    "__v": 0,
+    "approvalStatus": "approved"
+  }
+]

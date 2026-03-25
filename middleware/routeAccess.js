@@ -4,7 +4,8 @@ const secret = process.env.SECRET_KEY
 
 const routeAccess = (isTokenRequired = true , userAllowed = []) => {
     return async(req,res,next) => {
-        const token = req.headers.token
+        const token = req.headers.token || (req.headers.authorization && req.headers.authorization.split(' ')[1]);
+
         if(!token) return res.json({
             message :'token not provided',
             status :400,

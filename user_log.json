@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "6954bd72917bd1d7d7bb0c07",
+    "fullname": "henny viradiya",
+    "password": "$2b$10$SCObFa4cB22Wvn7aiDH16uQ1JlruJm6LqDeNm6k7SywK6PPAFDMlu",
+    "email": "henny@gmail.com",
+    "role": "admin",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "6954c3110c7fc6d3b032e4ef",
+    "fullname": "elena Gilbert",
+    "password": "$2b$10$m.7/yCkHfejSxHcgyqOdtOeWZ1xWfneL7dKmTbN7wpjUaR6atn.BW",
+    "email": "elena@gmail.com",
+    "role": "user",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "69550207b38ed8f84ae95b3f",
+    "fullname": "mike",
+    "password": "$2b$10$j8w9wKMqY5y3j9Bb4BG0puWHOaslfnKGVLS/0ftms/mZrK66L0Niy",
+    "email": "mike@gmail.com",
+    "role": "user",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "698581c76ee6fc3395aae241",
+    "fullname": "tisha virani",
+    "password": "$2b$10$71wUI/VVSmakGZ4Wr7jGYOdJbPMDDKxIOopMJigPY07azGyR/1rdm",
+    "email": "tisha@gmail.com",
+    "role": "owner",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "6996d836af8e47e3a7dfff91",
+    "fullname": "lizzie saltzman",
+    "password": "$2b$10$4JMIAmt50PzhvwCxtfQLuesbYqCprogQEJjcqltRDCxudSEVr.DM.",
+    "email": "lizzie@gmail.com",
+    "role": "user",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "69a9c9762f990ae2f245dbe1",
+    "fullname": "belly johnsan",
+    "password": "$2b$10$HxMrN/J5bf7s1gS9P/uLd.UM86n361e3LyYhxTxwdv9zRIRp18EPq",
+    "email": "belly@gmail.com",
+    "role": "user",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "69b2e2c6e6624bb3280d5538",
+    "fullname": "test",
+    "password": "$2b$10$qdaMDZfefhZmVGiurCOkB.jF0wBYDhuEKByipSsrBF.hdCIMpkC4G",
+    "email": "test@gmail.com",
+    "role": "user",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "_id": "69c150b45d5fba549d90491f",
+    "fullname": "john doe",
+    "password": "$2b$10$yd4U7P0GhmSKdrX.82csc.AbY3.HL.67iyw21S1MUnor/nTMSWFuG",
+    "email": "john@gmail.com",
+    "role": "owner",
+    "isActive": true,
+    "__v": 0,
+    "address": "vip , circle surat",
+    "city": "surat",
+    "country": "India",
+    "firstName": "john",
+    "lastName": "doe",
+    "mobileNumber": "558515454"
+  }
+]

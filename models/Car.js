@@ -42,7 +42,7 @@ const CarSchema = new Schema({
         hasGPS: Boolean,
         bluetooth: Boolean
     },
-    pricePerHour :{
+    pricePerDay :{
         type :Number,
         min: 0,
         required :true
@@ -51,6 +51,11 @@ const CarSchema = new Schema({
         type: String,
         enum: ['available', 'booked', 'maintenance'],
         default: 'available'
+    },
+    approvalStatus: {
+        type: String,
+        enum: ['pending', 'approved', 'rejected'],
+        default: 'pending'
     },
     registrationNumber: {
         type: String,
@@ -113,6 +118,11 @@ const CarSchema = new Schema({
     createdBy: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Users'
+    },
+    carCategory: {
+        type: String,
+        enum: ["normal", "featured", "top", "premium"],
+        default: "normal"
     }
 },{timestamps : true})
 

@@ -27,7 +27,7 @@ const bookingSchema = new Schema({
     },
     status: {
         type: String,
-        enum: ['pending', 'approved', 'cancelled', 'completed', 'ongoing'],
+        enum: ['pending', 'booked','approved', 'cancelled', 'completed', 'ongoing'],
         default: 'pending'
     },
     couponId: {
@@ -39,6 +39,8 @@ const bookingSchema = new Schema({
     couponCode: String,
     discountAmount: Number,
     finalPrice: Number,
+    totalDays: Number,
+    baseAmount: Number,
 
     transactionId: {
         type: String
