@@ -29,6 +29,7 @@ router.post('/submit-car',
         { name: "galleryImages", maxCount: 10 }
     ]), CONTROLLER.CAR.SubmitCarController)
 
+router.get('/', CONTROLLER.CAR.GetAllCarsController)
 router.get('/all-cars', CONTROLLER.CAR.GetAllCarsController)
 router.get('/:id', CONTROLLER.CAR.GetCarByIdController)
 router.put('/update/:id', CONTROLLER.CAR.UpdateCarController)
