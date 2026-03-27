@@ -22,7 +22,7 @@ ConnectDB()
 
 app.use(express.json())
 app.use(cors({
-    origin: '*',
+    origin: 'https://car-rental-gilt-gamma.vercel.app',
     credentials: true,
 }))
 
