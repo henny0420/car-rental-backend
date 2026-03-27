@@ -26,6 +26,10 @@ app.use(cors({
     credentials: true,
 }))
 
+app.get('/', (req, res) => {
+    res.json({ message: "Car Rental API is running", status: "OK" });
+})
+
 app.use('/', ROUTES.USER)
 
 app.use('/role', ROUTES.ROLE)
